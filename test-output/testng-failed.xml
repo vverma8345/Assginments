@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WalletHub.Assignment_2">
+      <class name="seleniumeasy.PractiseTest">
         <methods>
-          <include name="Test"/>
+          <include name="CloseBroswer"/>
           <include name="StartBrowser"/>
+          <include name="TestTwo"/>
         </methods>
-      </class> <!-- WalletHub.Assignment_2 -->
+      </class> <!-- seleniumeasy.PractiseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

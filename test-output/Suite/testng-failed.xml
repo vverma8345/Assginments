@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Guesthouser(failed)">
+    <classes>
+      <class name="com.qa.guesthouser.Guesthouser">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="RUN"/>
+        </methods>
+      </class> <!-- com.qa.guesthouser.Guesthouser -->
+    </classes>
+  </test> <!-- Guesthouser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
